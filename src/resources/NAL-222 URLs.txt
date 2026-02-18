@@ -1,0 +1,60 @@
+QA Doc									: https://docs.google.com/spreadsheets/d/1sia2jhNb0D3XAtFjAmMqgmWxwwq3XrEp/edit?usp=sharing&ouid=110531311795321977646&rtpof=true&sd=true
+
+Raw Control								: https://www.nature-love.de?ablyft_opt_out=true
+
+Control									: https://www.nature-love.de
+
+QA URLs									: 
+
+
+
+Control Preview							: https://www.nature-love.de/?ablyft_preview=64799288_87396007&ablyft_exclude_running=true
+
+Control with Tool						: https://www.nature-love.de/?ablyft_preview=64799288_87396007&ablyft_exclude_running=true&ablyft_qa_token=f6aaaed52f612034bec93d2734f2825c
+
+
+
+Desktop vB Preview						: https://www.nature-love.de/?ablyft_preview=64799288_48224814&ablyft_exclude_running=true
+
+Desktop vB with Tool					: https://www.nature-love.de/?ablyft_preview=64799288_48224814&ablyft_exclude_running=true&ablyft_qa_token=f6aaaed52f612034bec93d2734f2825c
+
+
+
+Desktop vC Preview						: 
+
+Desktop vC with Tool					: 
+
+
+
+Mobile vB Preview						: 
+
+Mobile vB with Tool						: 
+
+
+
+Mobile vC Preview						: 
+
+Mobile vC with Tool						: 
+
+
+
+Overlaps								: 
+	NAL-143	vB	: https://www.nature-love.de/?ablyft_preview=42972289_46221050&ablyft_exclude_running=true
+
+
+
+Overlaps Set-1							: 
+
+Overlaps Set-2							:
+
+
+
+Desktop Preview with Overlaps Set-1		: https://www.nature-love.de/?ablyft_preview=64799288_48224814,42972289_46221050&ablyft_exclude_running=true
+
+Desktop Preview with Overlaps Set-2		: 
+
+
+
+Mobile Preview with Overlaps Set-1		: 
+
+Mobile Preview with Overlaps Set-2		:
