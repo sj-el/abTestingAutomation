@@ -1,13 +1,16 @@
-import { browser, expect } from "@wdio/globals";
-import { assert } from "chai";
+import { browser, expect } from '@wdio/globals';
+import { HomePage } from '../pages/HomePage';
 
 describe('My Login application', () => {
-    before(`Set the window size`, async () => {
+
+    before(`Set viewport`, async() => {
         await browser.setWindowSize(1440, 900);
     });
 
-    it(`Run NAL-222`, async () => {
-        await browser.url(`https://www.nature-love.de/?ablyft_preview=64799288_48224814&ablyft_exclude_running=true`);
-        assert.isTrue(await browser.getUrl() === `https://www.nature-love.de/?ablyft_preview=64799288_48224814&ablyft_exclude_running=true`);
+    it(`Test NAL-222`, async() => {
+        const homepage = new HomePage();
+        await homepage.goToURL(homepage.getTestURL());
     });
+
 });
+

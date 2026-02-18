@@ -1,0 +1,13 @@
+
+{
+	"URLs": {
+		"BaseURL": "https://www.nature-love.de/",
+		"Test": "?ablyft_preview=64799288_48224814&ablyft_exclude_running=true",
+		"OverlapsSet_1": [
+			"42972289_46221050"
+		],
+		"OverlapsSet_2": [
+			""
+		]
+	}
+}

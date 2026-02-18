@@ -12,8 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "@wdio/cli": "^9.24.0",
-    "chai": "^6.2.2",
-    "chat": "^4.11.0"
+    "chai": "^6.2.2"
   },
   "devDependencies": {
     "@types/chai": "^5.2.3",

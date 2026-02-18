@@ -1,21 +1,16 @@
 
 type pageType = {
-	path: string;
-	title: string;
+	path: string
 }
 
 interface pageInterface {
-	getPath(): string;
-
-	getTitle(): string;
-
-	getBaseURL(): string;
+	// getPath(): string;
 
 	getTestURL(): string;
 
-	getOverlapURL(): string;
+	getOverlapURL(testID: string): string;
 
-	getTestURLWithOverlaps(): Promise<string>;
+	getURLWithOverlaps(): string;
 
 	goToURL(url: string): Promise<void>;
 
