@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "node",
+        "module": "es6",
+        "target": "es6",
+        "lib": [
+            "es6",
+            "dom"
+        ],
+        "types": [
+            "node",
+            "@wdio/globals/types",
+            "expect-webdriverio",
+            "@wdio/mocha-framework"
+        ],
+        "skipLibCheck": true,
+        "noEmit": true,
+        "allowImportingTsExtensions": true,
+        "resolveJsonModule": true,
+        "isolatedModules": false,
+        "strict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noFallthroughCasesInSwitch": true
+    },
+    "include": [
+        "src",
+        "wdio.conf.ts"
+    ]
+}
