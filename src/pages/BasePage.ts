@@ -1,5 +1,5 @@
 import { browser } from "@wdio/globals";
-import {pageType, pageInterface} from "../framework/PageTypes";
+import {pageType, pageInterface} from "../framework/PageModel";
 import {URLs} from "../resources/URLs.json" assert { type: "json" };
 
 class BasePage implements pageInterface {
